@@ -1,0 +1,106 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .container {
+    width: 25rem;
+    height: 30.5rem;
+    background-color:  #bdb7f8;
+    border:2px solid black;
+  }
+  
+  .form-container {
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #submit {
+    padding: 0.5rem 1rem;
+    width:10rem;
+    background-color:#f7b57b;
+    outline: none;
+    border:1.5px solid black;
+  }
+  
+  #detail-container {
+    max-height: 15rem;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  table {
+    width: 100%;
+    column-gap: 1rem;
+    padding: 0.5rem;
+  }
+  
+  table tr {
+    padding: 1rem;
+  }
+  
+  table th {
+    padding: 0.25rem 0.3rem;
+  }
+  
+  table td {
+    padding: 0.2rem 0.3rem;
+    max-width: 5rem;
+    overflow: hidden;
+    background-color:#D3D3D3;
+    border: 1.5px solid black;
+  }
+  
+  table td:last-child {
+    background-color: transparent;
+    border: none;
+  }
+  
+  table button {
+    padding: 0.25rem 0.5rem;
+    width:5rem;
+    outline: none;
+    background-color:#EEE8AA;
+    border:1px solid black;
+  }
+
+  .inputs{
+    border:1px solid black;
+    height:1.5rem;
+    width:15rem;
+    margin-left:10px;
+}
+
+  .searchspace {
+    align-items: left;
+    margin-left:0px;
+    border:2px solid black;
+    height:1.5rem;
+    width:15rem;
+  }
+
+  .searchbutton {
+    border:1px solid black;
+    background:#EEE8AA;
+    width:5rem;
+    margin-left:15px;
+    height:1.5rem;
+  }
+@media only screen and (max-width:100px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
